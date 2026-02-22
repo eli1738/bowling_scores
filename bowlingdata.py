@@ -88,8 +88,7 @@ def ballweight_mode_date_of_interst(df, date_of_interest):
 # main function
 def main():
     #readfile("BowlingSpreadsheet.xlsx")
-
- 
+    
     df = pd.read_excel("BowlingSpreadsheet.xlsx")
     #getdata(df)
 
