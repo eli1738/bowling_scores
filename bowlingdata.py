@@ -89,7 +89,7 @@ def ballweight_mode_date_of_interst(df, date_of_interest):
 def main():
     #readfile("BowlingSpreadsheet.xlsx")
 
-
+ 
     df = pd.read_excel("BowlingSpreadsheet.xlsx")
     #getdata(df)
 
@@ -98,5 +98,5 @@ def main():
     date_of_interest = "2-19-26"
     print_day_averages(df, date_of_interest)
     ballweight_mode_date_of_interst(df, date_of_interest)
-    
+
 main()
